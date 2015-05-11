@@ -13,11 +13,11 @@ public class No02_2HangDemo {
 	      mok=x/y;
 	      nmg=x%y;
 	      
-	      System.out.println(" + 결과 : "+add);
-	      System.out.println(" + 결과 : "+sub);
-	      System.out.println(" * 결과 : "+gob);
-	      System.out.println(" / 결과 : "+mok);
-	      System.out.println(" % 결과 : "+nmg);
+	      System.out.println(" + 결과 : "+add );
+	      System.out.println(" + 결과 : "+sub );
+	      System.out.println(" * 결과 : "+gob );
+	      System.out.println(" / 결과 : "+mok );
+	      System.out.println(" % 결과 : "+nmg );
 		    
 	}
 }
