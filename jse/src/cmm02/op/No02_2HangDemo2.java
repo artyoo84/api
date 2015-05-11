@@ -21,6 +21,8 @@ public class No02_2HangDemo2 {
       value=result;
       result=value%3;
       System.out.println(value+" % 3 = "+result);
+      
+      
    }
 
 }
