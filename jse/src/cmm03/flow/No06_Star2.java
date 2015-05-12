@@ -9,10 +9,13 @@ public class No06_Star2 {
 			}
 			System.out.println("");
 		}
-		
-		
-		
-		
+		/*
+		¡Ú¡Ú¡Ú¡Ú¡Ú
+		¡Ú¡Ú¡Ú¡Ú
+		¡Ú¡Ú¡Ú
+		¡Ú¡Ú
+		¡Ú
+		*/
 		
 	}
 }
