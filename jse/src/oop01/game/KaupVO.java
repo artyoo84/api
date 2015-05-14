@@ -56,7 +56,6 @@ public class KaupVO {
 	}
 
 	public String toString() {
-		
 		return  "카우프지수 : 키 = "+getHeight()
 				+", 몸무게 = "+getWeight()
 				+", idx = "+getIdx()+" "+getMsg();

@@ -14,7 +14,7 @@ public class KaupService {
 		vo.setWeight(weight);
 		
 		vo.setIdx(); 
-		vo.setMsg("");
+		vo.setMsg(" ");
 		
 		System.out.println(vo.toString());
 		System.out.println("¿Ï·á");

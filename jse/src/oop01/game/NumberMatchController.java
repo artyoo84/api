@@ -10,6 +10,5 @@ public class NumberMatchController {
 		System.out.println("1부터 4까지 정수만 입력하세요");
 		int input = scanner.nextInt();
 		sv.start(input);
-		
 	}
 }

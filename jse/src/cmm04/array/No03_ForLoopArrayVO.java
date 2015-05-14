@@ -55,6 +55,4 @@ public class No03_ForLoopArrayVO {
 		this.arr[4] = e;
 	}
 	
-	
-	
 }
