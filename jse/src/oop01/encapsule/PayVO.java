@@ -3,7 +3,7 @@ package oop01.encapsule;
 public class PayVO {
 	private int salary, income; // 월급
 	private String name;
-	static final double TAX = 0.1; // 상수(세금)
+	static final double TAX = 0.1; // 상수(세금) 클래스 변수 
 	
 	public int getSalary() {
 		return salary;
