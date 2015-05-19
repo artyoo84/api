@@ -13,17 +13,20 @@ public class Bicycle {
 		this.gear = startGear;
 		this.speed = startSpeed;
 		this.id = ++numberofBicycles;
-		
 	}
+	
 	public int getCadence() {
 		return cadence;
 	}
+	
 	public void setCadence(int cadence) {
 		this.cadence = cadence;
 	}
+	
 	public int getSpeed() {
 		return speed;
 	}
+	
 	public void setSpeed(int speed) {
 		this.speed = speed;
 	}
@@ -39,11 +42,11 @@ public class Bicycle {
 	public void setId(int id) {
 		this.id = id;
 	}
-
 	// 사용자 정의 메소드
 	public void  applyBrake(int decrement) {
 		speed -= decrement;
 	}
+	
 	public void  speedUP(int increment) {
 		speed -= increment;
 	}
