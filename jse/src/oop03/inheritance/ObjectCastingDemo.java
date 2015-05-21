@@ -10,9 +10,6 @@ public class ObjectCastingDemo {
 		Aclass a2 = new Bclass();
 		// Aclass 타입 a2 객체 는 Bclass()를 가져다 쓴다. 
 		
-		Aclass aaa = new Aclass();
-	  //Bclass a3 = new Aclass();
-		
 		// 오버라이딩시 자식클래스 메소드 우선 출력
 		a2.over(1);
 		// 오버라이딩 하지 않으면 부모클래스 우선 호출
@@ -20,8 +17,10 @@ public class ObjectCastingDemo {
 		
 		// 부모클래스 타입을 자식클래스로 강제 형변환
 		Bclass b2 = (Bclass) a2;
+		a2.over(1);
 		b2.over(1);
 		b2.noOver("AAA");
+		
 	}
 }
 
